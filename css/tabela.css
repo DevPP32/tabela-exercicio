@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+}
+body{
+    font-family: 'Nunito sans', sans-serif;
+    background-color: #fafbfc;
+    background-image: url("https://grupoitss.com.br/wp-content/themes/sap/img/wq-03.jpg");
+}
+
+header{
+    background: rgb(253, 253, 253);
+    padding: 10px;
+    color: #ffff;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(190, 187, 187);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: #0073b2;
+    color: #ffff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover{
+    background-color: rgb(126, 74, 175);
+}
+
+.content{
+    margin-top: 15px;
+    color: #ffff;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+table th {
+    background: rgb(197, 197, 197);
+}
+
+table th,td {
+    padding: 1px 5px;
+    text-align: left;
+}
+
+
+table td img{
+    width: 22px;
+}
+
+
+
+.center{
+    text-align: center;
+}
